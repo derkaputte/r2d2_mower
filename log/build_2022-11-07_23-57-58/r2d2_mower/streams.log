@@ -1,0 +1,65 @@
+[0.027s] Invoking command in '/home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/der_kaputte/dev_ws/src/r2d2_mower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower
+[0.138s] -- The C compiler identification is GNU 9.4.0
+[0.236s] -- The CXX compiler identification is GNU 9.4.0
+[0.242s] -- Check for working C compiler: /usr/bin/cc
+[0.375s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.377s] -- Detecting C compiler ABI info
+[0.523s] -- Detecting C compiler ABI info - done
+[0.543s] -- Detecting C compile features
+[0.543s] -- Detecting C compile features - done
+[0.546s] -- Check for working CXX compiler: /usr/bin/c++
+[0.697s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.699s] -- Detecting CXX compiler ABI info
+[0.859s] -- Detecting CXX compiler ABI info - done
+[0.878s] -- Detecting CXX compile features
+[0.879s] -- Detecting CXX compile features - done
+[0.882s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.920s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.920s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.221s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.345s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.353s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.354s] -- Configured cppcheck include dirs: 
+[1.354s] -- Configured cppcheck exclude dirs and/or files: 
+[1.361s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.362s] -- Configured cpplint exclude dirs and/or files: 
+[1.363s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.365s] -- Added test 'lint_cmake' to check CMake code style
+[1.367s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.377s] -- Added test 'uncrustify' to check C / C++ code style
+[1.378s] -- Configured uncrustify additional arguments: 
+[1.378s] -- Added test 'xmllint' to check XML markup files
+[1.380s] -- Configuring done
+[1.383s] -- Generating done
+[1.385s] -- Build files have been written to: /home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower
+[1.392s] Invoked command in '/home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/der_kaputte/dev_ws/src/r2d2_mower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower
+[1.396s] Invoking command in '/home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower -- -j6 -l6
+[1.470s] Invoked command in '/home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower -- -j6 -l6
+[1.537s] Invoking command in '/home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower
+[1.555s] -- Install configuration: ""
+[1.555s] -- Execute custom install script
+[1.556s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/config/empty.yaml
+[1.573s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/config/view_bot.rviz
+[1.592s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/description/inertial_macros.xacro
+[1.607s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/description/robot.urdf.xacro
+[1.623s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/description/robot_core.xacro
+[1.649s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/launch/launch_sim.launch.py
+[1.661s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/launch/rsp.launch.py
+[1.679s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/worlds/empty.world
+[1.700s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/ament_index/resource_index/package_run_dependencies/r2d2_mower
+[1.718s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/ament_index/resource_index/parent_prefix_path/r2d2_mower
+[1.732s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/environment/ament_prefix_path.sh
+[1.749s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/environment/ament_prefix_path.dsv
+[1.770s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/environment/path.sh
+[1.782s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/environment/path.dsv
+[1.798s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/local_setup.bash
+[1.815s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/local_setup.sh
+[1.832s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/local_setup.zsh
+[1.851s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/local_setup.dsv
+[1.870s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/package.dsv
+[1.887s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/ament_index/resource_index/packages/r2d2_mower
+[1.902s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/cmake/r2d2_mowerConfig.cmake
+[1.918s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/cmake/r2d2_mowerConfig-version.cmake
+[1.934s] -- Symlinking: /home/der_kaputte/dev_ws/src/r2d2_mower/install/r2d2_mower/share/r2d2_mower/package.xml
+[1.954s] Invoked command in '/home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/der_kaputte/dev_ws/src/r2d2_mower/build/r2d2_mower
